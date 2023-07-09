@@ -1,0 +1,214 @@
+.signup-child {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background-grey);
+  width: 840px;
+  overflow: hidden;
+}
+.signup-item,
+.unsplashucbmz0s-w28-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+}
+.unsplashucbmz0s-w28-icon {
+  max-height: 100%;
+  object-fit: cover;
+}
+.signup-item {
+  background-color: rgba(19, 19, 21, 0.3);
+}
+.welcome-back {
+  position: absolute;
+  top: 0;
+  left: 66px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+}
+.button,
+.to-keep-connected {
+  position: absolute;
+  top: 89px;
+  left: 0;
+}
+.button {
+  height: calc(100% - 148px);
+  top: 148px;
+  bottom: 0;
+  left: 139.5px;
+  border-radius: var(--br-8xs);
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 128px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-back-parent {
+  position: absolute;
+  height: calc(100% - 703px);
+  top: 350px;
+  bottom: 353px;
+  left: 94px;
+  width: 412px;
+}
+.hive {
+  color: var(--primary);
+}
+.event-hive,
+.sign-up-to {
+  position: absolute;
+  top: 0;
+  right: 230px;
+  font-size: var(--heading-size);
+}
+.sign-up-to {
+  top: 69px;
+  right: 113px;
+  font-size: var(--big-heading-size);
+}
+.your-name {
+  align-self: stretch;
+  text-transform: uppercase;
+}
+.enter-your-mail,
+.your-name {
+  position: relative;
+}
+.input,
+.your-name-parent {
+  align-self: stretch;
+  display: flex;
+}
+.input {
+  border-radius: var(--br-8xs);
+  background-color: var(--neutral-colors-white);
+  height: 46px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--sub-paragraph-size);
+  color: var(--grey);
+}
+.your-name-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.password-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button1,
+.frame-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent {
+  position: absolute;
+  height: calc(100% - 388px);
+  top: 173px;
+  right: 0;
+  bottom: 215px;
+  width: 578px;
+  flex-direction: column;
+  gap: 40px;
+  text-align: left;
+}
+.button1 {
+  height: calc(100% - 668px);
+  top: 533px;
+  right: 160px;
+  bottom: 135px;
+  border-radius: var(--br-8xs);
+  background-color: var(--primary);
+  width: 257px;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-21xl);
+  box-sizing: border-box;
+  color: var(--neutral-colors-white);
+}
+.button1,
+.logo-icon,
+.or {
+  position: absolute;
+}
+.or {
+  top: 608px;
+  right: 279px;
+  color: var(--gray-600);
+}
+.logo-icon {
+  top: 0;
+  left: 0;
+  width: 23px;
+  height: 23px;
+}
+.button-text {
+  position: absolute;
+  top: 2.5px;
+  left: 39px;
+}
+.button-content {
+  position: relative;
+  width: 179px;
+  height: 23px;
+}
+.google-button {
+  position: absolute;
+  height: calc(100% - 662px);
+  top: 662px;
+  right: 103px;
+  bottom: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--neutral-colors-white);
+  border: 1px solid var(--neutral-colors-500);
+  box-sizing: border-box;
+  width: 371px;
+  display: flex;
+  flex-direction: column;
+  padding: 19px 52px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: var(--black);
+}
+.event-hive-parent {
+  position: absolute;
+  height: calc(100% - 192px);
+  top: 96px;
+  right: 131px;
+  bottom: 96px;
+  width: 578px;
+  color: var(--color-black);
+}
+.signup {
+  position: relative;
+  border-radius: 20px;
+  background-color: var(--background-grey);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--body-text-size);
+  color: var(--neutral-colors-white);
+  font-family: var(--body-text);
+}
