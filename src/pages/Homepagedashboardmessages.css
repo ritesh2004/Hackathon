@@ -1,0 +1,105 @@
+.event-hive {
+  position: relative;
+}
+.phosphor-icons-squaresfour {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.phosphor-icons-squaresfour-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.phosphor-icons-televisionsim-parent {
+  border-radius: var(--br-8xs);
+  padding: var(--padding-3xs);
+}
+.phosphor-icons-paperplanerig-parent,
+.phosphor-icons-televisionsim-parent,
+.phosphor-icons-user-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.phosphor-icons-paperplanerig-parent {
+  border-radius: var(--br-8xs);
+  background-color: var(--primary);
+  padding: 15px var(--padding-3xs);
+  color: var(--white);
+}
+.phosphor-icons-user-parent {
+  padding: 0 var(--padding-3xs);
+}
+.event-hive-parent,
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+}
+.frame-parent {
+  width: 200px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  text-align: left;
+  font-size: var(--sub-heading-size);
+  color: var(--black);
+}
+.event-hive-parent {
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--white);
+  padding: 40px 50px 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.event-hive-parent,
+.homepagedashboardmessages-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 1150px;
+}
+.group-child,
+.homepagedashboardmessages-child {
+  position: absolute;
+  top: 0;
+  width: 1190px;
+  height: 100px;
+}
+.group-child {
+  left: 0;
+  background-color: var(--white);
+  overflow: hidden;
+}
+.homepagedashboardmessages-child {
+  left: 250px;
+}
+.homepagedashboardmessages {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--background-grey);
+  width: 100%;
+  height: 1150px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--heading-size);
+  color: var(--primary);
+  font-family: var(--sub-heading);
+}
